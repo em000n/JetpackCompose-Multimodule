@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="message_please_check_your_internet_connection">Please check your internet connection or tap refresh.</string>
+    <string name="message_whoops_connection_time_out">Whoops! connection time out, try again!</string>
+    <string name="message_whoops_something_went_wrong">Whoops! Something went wrong</string>
+    <string name="message_unknown_error_occur">Unknown error occur, please try again!</string>
+
+</resources>
