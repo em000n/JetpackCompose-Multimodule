@@ -22,7 +22,7 @@ internal object Versions {
     const val firebaseBomVersion= "30.5.0"
     const val alerter = "7.2.4"
     //val navigationVersion: String = System.getProperty("navigationVersion")
-    const val coroutinesVersion = "1.3.9"
+    const val coroutinesVersion = "1.7.3"
     const val leakcanaryVersion = "2.9.1"
     const val playAppUpdateVersionVersion = "2.0.1"
     const val facebookVersion = "14.1.1"
