@@ -147,7 +147,7 @@ fun ProfileUI(profileApiEntity: ProfileApiEntity) {
                     text = "${profileApiEntity.public_repos}",
                     color = Color.Black,
                     fontWeight = FontWeight.Bold,
-                    fontSize = 16.sp
+                    fontSize = 18.sp
                 )
                 Text(
                     text = stringResource(com.emon.assets.R.string.repository),
@@ -164,7 +164,7 @@ fun ProfileUI(profileApiEntity: ProfileApiEntity) {
                     text = "${profileApiEntity.followers}",
                     color = Color.Black,
                     fontWeight = FontWeight.Bold,
-                    fontSize = 16.sp
+                    fontSize = 18.sp
                 )
                 Text(
                     text = stringResource(com.emon.assets.R.string.follower),
@@ -181,7 +181,7 @@ fun ProfileUI(profileApiEntity: ProfileApiEntity) {
                     text = "${profileApiEntity.following}",
                     color = Color.Black,
                     fontWeight = FontWeight.Bold,
-                    fontSize = 16.sp
+                    fontSize = 18.sp
                 )
                 Text(
                     text = stringResource(com.emon.assets.R.string.following),
