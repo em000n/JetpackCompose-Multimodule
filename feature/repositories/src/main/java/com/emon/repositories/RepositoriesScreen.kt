@@ -141,6 +141,7 @@ fun RepoCard(
                         painter = painterResource(id = com.emon.assets.R.drawable.ic_baseline_info_24),
                         contentDescription = null
                     )
+                    Spacer(Modifier.size(5.dp))
                     Text(text = repo.language, color = Color.Black, fontWeight = FontWeight.Bold)
                 }
                 Row(
@@ -152,6 +153,7 @@ fun RepoCard(
                         painter = painterResource(id = com.emon.assets.R.drawable.ic_baseline_star_rate_24),
                         contentDescription = null
                     )
+                    Spacer(Modifier.size(5.dp))
                     Text(
                         text = "${repo.stargazers_count} Star",
                         color = Color.Black,
@@ -167,6 +169,7 @@ fun RepoCard(
                         painter = painterResource(id = com.emon.assets.R.drawable.ic_baseline_share_24),
                         contentDescription = null
                     )
+                    Spacer(Modifier.size(5.dp))
                     Text(
                         text = "${repo.forks_count} Forked",
                         color = Color.Black,
