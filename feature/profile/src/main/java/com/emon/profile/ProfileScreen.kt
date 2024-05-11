@@ -128,8 +128,8 @@ fun ProfileUI(profileApiEntity: ProfileApiEntity) {
                 .border(width = 2.dp, color = Color.LightGray, CircleShape)
         )
         Spacer(Modifier.size(5.dp))
-        Text(profileApiEntity.name, fontWeight = FontWeight.Bold, fontSize = 16.sp)
-        Text(profileApiEntity.login, fontSize = 16.sp)
+        Text(profileApiEntity.name, fontWeight = FontWeight.Bold, fontSize = 20.sp)
+        Text(profileApiEntity.login, fontSize = 18.sp)
 
         Spacer(Modifier.size(10.dp))
         Text(profileApiEntity.bio, fontSize = 18.sp, textAlign = TextAlign.Center)
